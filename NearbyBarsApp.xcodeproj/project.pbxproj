@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23B3607278D151E00ABC5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B3606278D151E00ABC5DD /* AppDelegate.swift */; };
+		B23B3609278D151E00ABC5DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B3608278D151E00ABC5DD /* SceneDelegate.swift */; };
+		B23B360B278D151E00ABC5DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B360A278D151E00ABC5DD /* ViewController.swift */; };
+		B23B360E278D151E00ABC5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23B360C278D151E00ABC5DD /* Main.storyboard */; };
+		B23B3611278D151E00ABC5DD /* NearbyBarsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B23B360F278D151E00ABC5DD /* NearbyBarsApp.xcdatamodeld */; };
+		B23B3613278D152000ABC5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23B3612278D152000ABC5DD /* Assets.xcassets */; };
+		B23B3616278D152000ABC5DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23B3614278D152000ABC5DD /* LaunchScreen.storyboard */; };
+		B23B3621278D152000ABC5DD /* NearbyBarsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B3620278D152000ABC5DD /* NearbyBarsAppTests.swift */; };
+		B23B362C278D152000ABC5DD /* NearbyBarsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B362B278D152000ABC5DD /* NearbyBarsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23B361D278D152000ABC5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23B35FB278D151E00ABC5DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23B3602278D151E00ABC5DD;
+			remoteInfo = NearbyBarsApp;
+		};
+		B23B3628278D152000ABC5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23B35FB278D151E00ABC5DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23B3602278D151E00ABC5DD;
+			remoteInfo = NearbyBarsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B23B3603278D151E00ABC5DD /* NearbyBarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyBarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23B3606278D151E00ABC5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B23B3608278D151E00ABC5DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B23B360A278D151E00ABC5DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B23B360D278D151E00ABC5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23B3610278D151E00ABC5DD /* NearbyBarsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearbyBarsApp.xcdatamodel; sourceTree = "<group>"; };
+		B23B3612278D152000ABC5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23B3615278D152000ABC5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B23B3617278D152000ABC5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23B361C278D152000ABC5DD /* NearbyBarsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyBarsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23B3620278D152000ABC5DD /* NearbyBarsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyBarsAppTests.swift; sourceTree = "<group>"; };
+		B23B3622278D152000ABC5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23B3627278D152000ABC5DD /* NearbyBarsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyBarsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23B362B278D152000ABC5DD /* NearbyBarsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyBarsAppUITests.swift; sourceTree = "<group>"; };
+		B23B362D278D152000ABC5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23B3600278D151E00ABC5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23B3619278D152000ABC5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23B3624278D152000ABC5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23B35FA278D151E00ABC5DD = {
+			isa = PBXGroup;
+			children = (
+				B23B3605278D151E00ABC5DD /* NearbyBarsApp */,
+				B23B361F278D152000ABC5DD /* NearbyBarsAppTests */,
+				B23B362A278D152000ABC5DD /* NearbyBarsAppUITests */,
+				B23B3604278D151E00ABC5DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23B3604278D151E00ABC5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23B3603278D151E00ABC5DD /* NearbyBarsApp.app */,
+				B23B361C278D152000ABC5DD /* NearbyBarsAppTests.xctest */,
+				B23B3627278D152000ABC5DD /* NearbyBarsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23B3605278D151E00ABC5DD /* NearbyBarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B23B3606278D151E00ABC5DD /* AppDelegate.swift */,
+				B23B3608278D151E00ABC5DD /* SceneDelegate.swift */,
+				B23B360A278D151E00ABC5DD /* ViewController.swift */,
+				B23B360C278D151E00ABC5DD /* Main.storyboard */,
+				B23B3612278D152000ABC5DD /* Assets.xcassets */,
+				B23B3614278D152000ABC5DD /* LaunchScreen.storyboard */,
+				B23B3617278D152000ABC5DD /* Info.plist */,
+				B23B360F278D151E00ABC5DD /* NearbyBarsApp.xcdatamodeld */,
+			);
+			path = NearbyBarsApp;
+			sourceTree = "<group>";
+		};
+		B23B361F278D152000ABC5DD /* NearbyBarsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B23B3620278D152000ABC5DD /* NearbyBarsAppTests.swift */,
+				B23B3622278D152000ABC5DD /* Info.plist */,
+			);
+			path = NearbyBarsAppTests;
+			sourceTree = "<group>";
+		};
+		B23B362A278D152000ABC5DD /* NearbyBarsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B23B362B278D152000ABC5DD /* NearbyBarsAppUITests.swift */,
+				B23B362D278D152000ABC5DD /* Info.plist */,
+			);
+			path = NearbyBarsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23B3602278D151E00ABC5DD /* NearbyBarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23B3630278D152000ABC5DD /* Build configuration list for PBXNativeTarget "NearbyBarsApp" */;
+			buildPhases = (
+				B23B35FF278D151E00ABC5DD /* Sources */,
+				B23B3600278D151E00ABC5DD /* Frameworks */,
+				B23B3601278D151E00ABC5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyBarsApp;
+			productName = NearbyBarsApp;
+			productReference = B23B3603278D151E00ABC5DD /* NearbyBarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B23B361B278D152000ABC5DD /* NearbyBarsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23B3633278D152000ABC5DD /* Build configuration list for PBXNativeTarget "NearbyBarsAppTests" */;
+			buildPhases = (
+				B23B3618278D152000ABC5DD /* Sources */,
+				B23B3619278D152000ABC5DD /* Frameworks */,
+				B23B361A278D152000ABC5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23B361E278D152000ABC5DD /* PBXTargetDependency */,
+			);
+			name = NearbyBarsAppTests;
+			productName = NearbyBarsAppTests;
+			productReference = B23B361C278D152000ABC5DD /* NearbyBarsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B23B3626278D152000ABC5DD /* NearbyBarsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23B3636278D152000ABC5DD /* Build configuration list for PBXNativeTarget "NearbyBarsAppUITests" */;
+			buildPhases = (
+				B23B3623278D152000ABC5DD /* Sources */,
+				B23B3624278D152000ABC5DD /* Frameworks */,
+				B23B3625278D152000ABC5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23B3629278D152000ABC5DD /* PBXTargetDependency */,
+			);
+			name = NearbyBarsAppUITests;
+			productName = NearbyBarsAppUITests;
+			productReference = B23B3627278D152000ABC5DD /* NearbyBarsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23B35FB278D151E00ABC5DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B23B3602278D151E00ABC5DD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B23B361B278D152000ABC5DD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B23B3602278D151E00ABC5DD;
+					};
+					B23B3626278D152000ABC5DD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B23B3602278D151E00ABC5DD;
+					};
+				};
+			};
+			buildConfigurationList = B23B35FE278D151E00ABC5DD /* Build configuration list for PBXProject "NearbyBarsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23B35FA278D151E00ABC5DD;
+			productRefGroup = B23B3604278D151E00ABC5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23B3602278D151E00ABC5DD /* NearbyBarsApp */,
+				B23B361B278D152000ABC5DD /* NearbyBarsAppTests */,
+				B23B3626278D152000ABC5DD /* NearbyBarsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23B3601278D151E00ABC5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23B3616278D152000ABC5DD /* LaunchScreen.storyboard in Resources */,
+				B23B3613278D152000ABC5DD /* Assets.xcassets in Resources */,
+				B23B360E278D151E00ABC5DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23B361A278D152000ABC5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23B3625278D152000ABC5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23B35FF278D151E00ABC5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23B3611278D151E00ABC5DD /* NearbyBarsApp.xcdatamodeld in Sources */,
+				B23B360B278D151E00ABC5DD /* ViewController.swift in Sources */,
+				B23B3607278D151E00ABC5DD /* AppDelegate.swift in Sources */,
+				B23B3609278D151E00ABC5DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23B3618278D152000ABC5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23B3621278D152000ABC5DD /* NearbyBarsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23B3623278D152000ABC5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23B362C278D152000ABC5DD /* NearbyBarsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23B361E278D152000ABC5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23B3602278D151E00ABC5DD /* NearbyBarsApp */;
+			targetProxy = B23B361D278D152000ABC5DD /* PBXContainerItemProxy */;
+		};
+		B23B3629278D152000ABC5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23B3602278D151E00ABC5DD /* NearbyBarsApp */;
+			targetProxy = B23B3628278D152000ABC5DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B23B360C278D151E00ABC5DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23B360D278D151E00ABC5DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B23B3614278D152000ABC5DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23B3615278D152000ABC5DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23B362E278D152000ABC5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B23B362F278D152000ABC5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23B3631278D152000ABC5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK54934WQ2;
+				INFOPLIST_FILE = NearbyBarsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerfectBar.NearbyBarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B23B3632278D152000ABC5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK54934WQ2;
+				INFOPLIST_FILE = NearbyBarsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerfectBar.NearbyBarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B23B3634278D152000ABC5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK54934WQ2;
+				INFOPLIST_FILE = NearbyBarsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerfectBar.NearbyBarsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyBarsApp.app/NearbyBarsApp";
+			};
+			name = Debug;
+		};
+		B23B3635278D152000ABC5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK54934WQ2;
+				INFOPLIST_FILE = NearbyBarsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerfectBar.NearbyBarsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyBarsApp.app/NearbyBarsApp";
+			};
+			name = Release;
+		};
+		B23B3637278D152000ABC5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK54934WQ2;
+				INFOPLIST_FILE = NearbyBarsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerfectBar.NearbyBarsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearbyBarsApp;
+			};
+			name = Debug;
+		};
+		B23B3638278D152000ABC5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK54934WQ2;
+				INFOPLIST_FILE = NearbyBarsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerfectBar.NearbyBarsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearbyBarsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23B35FE278D151E00ABC5DD /* Build configuration list for PBXProject "NearbyBarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23B362E278D152000ABC5DD /* Debug */,
+				B23B362F278D152000ABC5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23B3630278D152000ABC5DD /* Build configuration list for PBXNativeTarget "NearbyBarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23B3631278D152000ABC5DD /* Debug */,
+				B23B3632278D152000ABC5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23B3633278D152000ABC5DD /* Build configuration list for PBXNativeTarget "NearbyBarsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23B3634278D152000ABC5DD /* Debug */,
+				B23B3635278D152000ABC5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23B3636278D152000ABC5DD /* Build configuration list for PBXNativeTarget "NearbyBarsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23B3637278D152000ABC5DD /* Debug */,
+				B23B3638278D152000ABC5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B23B360F278D151E00ABC5DD /* NearbyBarsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B23B3610278D151E00ABC5DD /* NearbyBarsApp.xcdatamodel */,
+			);
+			currentVersion = B23B3610278D151E00ABC5DD /* NearbyBarsApp.xcdatamodel */;
+			path = NearbyBarsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B23B35FB278D151E00ABC5DD /* Project object */;
+}
